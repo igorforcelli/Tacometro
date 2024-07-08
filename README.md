@@ -64,7 +64,7 @@ void TELA(int RPM) {
 
 void loop() {
 
-  // Se houver se passado um tempo maior do que o intervalo, realiza outra leitura
+  // Se o tempo for maior do que o intervalo é realizada outra leitura
   //if (millis() - marcador_de_tempo >= intervalo) {
 
     leitura_atual = digitalRead(sinal);
